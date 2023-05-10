@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#top{
+    position: fixed;
+    right: 30px;
+    bottom: 90px;
+}
+.hr1{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(127, 255, 210); */
+    border: 2px solid rgb(127, 255, 210);
+}
+.hr2{
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(127, 255, 210); */
+    border: 2px solid rgb(70, 253, 189);
+}
+.hr3{
+    border: 2px solid rgb(70, 137, 253);
+}
+.hr4{
+    border: 2px solid rgb(88, 70, 253);
+}
+.hr5{
+    border: 2px solid rgb(198, 70, 253);
+}
+.hr6{
+    border: 2px solid rgb(253, 70, 180);
+}
+body{
+    background-color: rgb(206, 255, 255);
+    font-family: 'Chivo Mono', monospace;
+}
+/* Navigation Bar */
+#navbar{
+display: flex;
+background-color: rgb(0, 198, 50);
+color: rgb(255, 255, 255);
+position: sticky;
+top: 0px;
+align-items: center;
+/* vertical items aligned in middle */
+}
+#logo{
+    width: 20%;
+    text-align: center;
+}
+#logoimage{
+    margin: 5px;
+    padding: 2px;
+    height: 80px;
+    border-radius: 40px;
+
+}
+#links{
+    width: 60%;
+}
+#navlinks{
+    display: flex;
+    list-style-type: none;
+}
+#navlinks li{
+    padding: 60px;
+}
+#navlinks a{
+    color: rgb(249, 249, 249);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 15px;
+}
+#navlinks a:hover{
+    color: rgb(249, 249, 249);
+    background-color: rgb(24, 123, 123);
+    font-size: 18px;
+    transition: 1s;
+}
+
+#search{
+    width: 20%;
+    /* horizontal mid */
+    text-align: center;
+    /* vertical center */
+    align-items: center;
+}
+#searchbox{
+    width: 210px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: beige;
+    padding: 5px;
+}
+/* nav bar ends here */
+
+/* welcome section */
+#Welcome{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* about us starts here */
+#aboutus{
+    height: 400px;
+    text-align: center;
+    padding: 15px;
+    background-image: url(6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#services{
+    display: flex;
+    justify-content: space-evenly;
+}
+.border1{
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: groove;
+    border-color: blue;
+    border-radius: 5px;
+    height: 300px;
+    width: 30%;
+    padding: 15px;
+}
+#servicefood{
+    background-color: blanchedalmond;
+}
+#servicecatering{
+    background-color: rgb(255, 187, 104);
+}
+#servicebulk{
+    background-color: blanchedalmond;
+}
+.serviceimg{
+    height: 170px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    border-style: ridge;
+    border-color: blue;
+    border-left: 3px;
+}
+.font1{
+    font-size: 20px;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+ /* client sect starts */
+#clients{
+    height: 400px;
+}
+/* contact us starting */
+#contactus{
+    height: 650px;
+    background-image: url(6.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+}
+.font2{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-align: center;
+}
+#contactbox{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+#contactbox input , #contactbox textarea{
+width: 100%;
+padding: 5px;
+margin: 5px;
+border-radius: 10px;
+background-color: rgb(196, 255, 198);
+font-size: 18px;
+}
+#submit1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 69, 206);
+}
+#contactbox label{
+    margin: 5px;
+    padding: 5px;
+    color: brown;
+}
+
+/* social media starting */
+#socialmedia{
+    height: 100px;
+    text-align: center;
+    line-height: 150px;
+}
